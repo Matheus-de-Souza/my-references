@@ -1,3 +1,3 @@
 My references for programming
 
-[Go Back](./)
+[Go Back](../)
