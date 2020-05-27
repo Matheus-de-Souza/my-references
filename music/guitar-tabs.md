@@ -1,6 +1,6 @@
 # Guitar Tabs/Chords
 
-[Go back](./README.md)
+[Go back](./)
 
 ## Oficina G3
 
