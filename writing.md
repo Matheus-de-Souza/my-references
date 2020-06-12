@@ -10,4 +10,6 @@ PDF - https://www.diffchecker.com/pdf-diff
 
 https://emojipedia.org
 
+https://www.emojicopy.com
+
 Github - https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.mda
