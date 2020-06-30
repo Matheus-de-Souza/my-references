@@ -24,4 +24,8 @@
 
 ### Volumes
 
-* Rodar container com volume setado - `docker run -v "CAMINHO_VOLUME_LOCAL:CAMINHO_VOLUME_CONTAINER" NOME_IMAGEM`
+* Rodar container com volume (bind mount) setado - `docker run -v "CAMINHO_VOLUME_LOCAL:CAMINHO_VOLUME_CONTAINER" NOME_IMAGEM`
+* Rodar container com volume só no container - `docker run -v CAMINHO_VOLUME_CONTAINER NOME_IMAGEM`
+* Rodar container com volume nomeado - `docker run -v NOME_VOLUME:CAMINHO_VOLUME_CONTAINER NOME_IMAGEM`
+* Criar volume nomeado - `docker volume create NOME_VOLUME`
+* Rodar container com volume tmpfs - `docker run --tmpfs CAMINHO_VOLUME_CONTAINER NOME_IMAGEM`
