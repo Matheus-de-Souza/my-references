@@ -20,7 +20,8 @@
 ### Imagens
 
 * Rodar imagem e conectar o terminal nela - `docker run -it NOME_IMAGEM`
-* Remover imagem - `docker rmi NOME_DA_IMAGEM`
+* Apagar imagem - `docker rmi NOME_DA_IMAGEM`
+* Apagar todas as imagens do host - `docker rmi $(docker images -q)`
 * Para listar as imagens no sistema - `docker images`
 * Para buildar uma imagem - `docker build -f node.dockerfile -t mwssouza/node .`
 * Para entrar na conta do DockerHub - `docker login`
