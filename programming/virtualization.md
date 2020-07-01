@@ -21,6 +21,11 @@
 
 * Rodar imagem e conectar o terminal nela - `docker run -it NOME_IMAGEM`
 * Remover imagem - `docker rmi NOME_DA_IMAGEM`
+* Para listar as imagens no sistema - `docker images`
+* Para buildar uma imagem - `docker build -f node.dockerfile -t mwssouza/node .`
+* Para entrar na conta do DockerHub - `docker login`
+* Enviar imagem para DockerHub - `docker push NOME_IMAGEM_LOCAL`
+* Baixar imagem do DockerHub - `docker pull NOME_IMAGEM_LOCAL`
 
 ### Volumes
 
@@ -29,3 +34,18 @@
 * Rodar container com volume nomeado - `docker run -v NOME_VOLUME:CAMINHO_VOLUME_CONTAINER NOME_IMAGEM`
 * Criar volume nomeado - `docker volume create NOME_VOLUME`
 * Rodar container com volume tmpfs - `docker run --tmpfs CAMINHO_VOLUME_CONTAINER NOME_IMAGEM`
+
+## Network
+
+* Criar uma nova rede - `docker network create --driver bridge NOME_REDE`
+* Listar redes docker - `docker network list`
+* Inspecionar rede docker - `docker network inspect NOME_REDE`
+* Rodar container em certa rede - `docker run -it --name meu-container --network NOME_REDE ubuntu`
+* Identificar o próprio ip - `hostname -i`
+
+### Docker Compose
+
+* Fazer build dos serviços descritos no docker-compose.yml - `docker-compose build`
+* Subir containers descritos no docker-compose.yml - `docker-compose up`
+* Parar containers descritos no docker-compose.yml - `docker-compose down`
+* Reiniciar containers descritos no docker-compose.yml - `docker-compose restart`
