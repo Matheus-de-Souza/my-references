@@ -50,3 +50,12 @@
 * Subir containers descritos no docker-compose.yml - `docker-compose up`
 * Parar containers descritos no docker-compose.yml - `docker-compose down`
 * Reiniciar containers descritos no docker-compose.yml - `docker-compose restart`
+
+## VirtualBox
+
+Para habilitar virtualização _nested_ nas suas máquinas virtuais:
+
+1. Descobrir o nome/uuid das máquinas virtuais - `VboxManage list vms`
+2. Habilitar a virtualização _nested_ - `VboxManage modifyvm "[nome da vm na lista]" --nested-hw-virt on`
+
+O método funciona tanto no linux como no windows, a única diferença é que no windows precisa entrar na pasta onde o VirtualBox está instalado e rodar o programa de gerenciamento das VMs como `VboxManage.exe`.
