@@ -16,6 +16,9 @@
 * Rodar container com terminal _attached_- `docker start -a -i ID_CONTAINER`
 * Rodar container com variável de ambiente setada - `docker run -e AUTHOR="Fulano" dockersamples/static-site`
 * Inspecionar valores do container - `docker inspect ID_CONTAINER`
+* Para verificar as estatísticas de memória, IO e etc - `docker stats [ID_CONTAINER]`
+* Para fazer um _attach_  do terminal atual para STDIN, STDOUT e STDERR de determinado container - `docker attach ID_CONTAINER`
+ Obs.: Não é possível sair por ctrl+c/exit quando utilizar o comando anterior, é necessário outro terminal para parar o container que foi feito _attach_ para liberar o terminal novamente.
 
 ### Imagens
 
