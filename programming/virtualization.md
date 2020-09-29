@@ -54,6 +54,10 @@
 * Parar containers descritos no docker-compose.yml - `docker-compose down`
 * Reiniciar containers descritos no docker-compose.yml - `docker-compose restart`
 
+## Etc
+
+* Rodar aplicações GUI? https://github.com/gomex/docker-para-desenvolvedores/blob/master/manuscript/rodando_aplicacoes_gui.md
+
 ## VirtualBox
 
 Para habilitar virtualização _nested_ nas suas máquinas virtuais:
