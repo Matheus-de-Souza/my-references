@@ -11,3 +11,4 @@
 
 Informações bem úteis sobre os tipos de mapeamento - https://registro.br/tecnologia/caracteristicas-tecnicas/
 Como criar subdomínios wildcard - https://brasilcloud.com.br/tutoriais/como-criar-um-subdominio-wildcard-curinga-cpanel/
+DNS e IP - https://www.dnsleaktest.com / https://www.whatsmyip.org
