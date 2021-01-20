@@ -19,3 +19,7 @@ ou
 `echo '<a href="#">Link aqui</a><br/>' | sed 's/<[^>]*>//g'`
 
 Result: Link aqui
+
+### Kill Finder (MacOS)
+
+https://www.howtogeek.com/259378/how-to-quit-the-finder-in-os-x/
